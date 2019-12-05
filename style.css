@@ -1,0 +1,26 @@
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start
+	flex-wrap: nowrap;
+	background: orange;
+}
+
+.content {
+	
+	justify-content: center;
+	width: 5;
+	margin-left: 650px
+	
+}
+.news {
+	margin-right: 650px;
+	flex-direction: flex-start;
+	width: 50%;
+	flex-direction: column;
+}
+
+#breaking {
+	flex-wrap: wrap-reverse;
+}
+
